@@ -16,8 +16,8 @@ DB_PASS = "0206Teddy"
 DB_HOST = "localhost"
 DB_PORT = "5432"
  
-    
-engine = create_engine("postgresql://postgres:0206Teddy@localhost:5432/Emissions")
+engine = create_engine("postgres://frwvfqphtdfpty:1be28bbaa802df555ed1626cf5487b944220e46855d6a50a8dfa92718d02c5ed@ec2-3-209-124-113.compute-1.amazonaws.com:5432/d3mh1gg1i8bljo")
+# engine = create_engine("postgresql://postgres:0206Teddy@localhost:5432/Emissions")
 conn = psycopg2.connect(database=DB_NAME,
                             user=DB_USER,
                             password=DB_PASS,
